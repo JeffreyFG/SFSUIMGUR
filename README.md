@@ -10,9 +10,9 @@ Please follow the instructions below and fill in the information requested when 
 
 |               | Information   |
 |:-------------:|:-------------:|
-| Student Name  | name-here     |
-| Student ID    | id-here       |
-| Student Email | email-here    |
+| Student Name  | Jeffrey Fulmer Gardner     |
+| Student ID    | 911690759       |
+| Student Email | jfulmergardner@mail.sfsu.edu    |
 
 
 
