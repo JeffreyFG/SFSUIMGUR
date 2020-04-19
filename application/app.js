@@ -1,7 +1,26 @@
 
-const bodyPareser = require('body-parser');
-const app = express
 var express = require('express');
+const bodyPareser = require('body-parser');
+const app = express();
+
+
+
+
+//middle ware / routing
+
+
+
+app.listen(3000, function(){console.log('My server is ruinning on port 3000');});
+
+
+
+
+
+
+
+
+
+
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
