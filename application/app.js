@@ -41,5 +41,6 @@ app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/registered',registeredRouter);
 app.use('/registration',registrationRouter);
+app.use('/login',loginRouter);
 
 module.exports = app;
