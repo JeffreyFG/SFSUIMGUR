@@ -41,6 +41,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/registered',registeredRouter);
+app.use('/registeredcomplete',registeredRouter);
 app.use('/registration',registrationRouter);
 app.use('/login',loginRouter);
 app.use('/postimage',postImageRouter);
