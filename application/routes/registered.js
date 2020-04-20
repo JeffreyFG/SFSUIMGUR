@@ -8,7 +8,7 @@ router.post('/registered', function(req, res, next) {
 
 });
 router.get('/registeredcomplete',function(req,res,next){
-    res.sendFile('registered.html');
+    res.sendFile('registered.html',{root:'public/html'});
 });
 
 module.exports = router;
