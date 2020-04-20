@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.post('/registered', function(req, res, next) {
-  res.redirect('/registeredcomplete');
+  res.redirect('/registered/registeredcomplete');
   //
 
 });
