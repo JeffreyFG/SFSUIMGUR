@@ -1,0 +1,27 @@
+{
+  "name": "csc317webpage",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "colors": "^1.4.0",
+    "cookie-parser": "^1.4.5",
+    "debug": "~2.6.9",
+    "express": "^4.16.4",
+    "express-mysql-session": "^2.1.4",
+    "express-session": "^1.17.1",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.2",
+    "mysql2": "^2.1.0",
+    "pug": "^2.0.4",
+    "sharp": "^0.25.3"
+  },
+  "description": "this is the webpage that i made for my class",
+  "main": "app.js",
+  "devDependencies": {},
+  "author": "Jeffrey Fulmer Gardner",
+  "license": "ISC"
+}

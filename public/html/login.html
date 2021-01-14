@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+        <head>
+            <title>Login page</title>
+            <link rel="stylesheet" type="text/css" href="../stylesheets/style.css">
+                   
+            
+        </head>
+        <nav>
+            <a href="/login"><button id ="loginandout">login</button></a>
+            <a href="/postimage"><button>Post Image</button></a>
+            <a href="/registration"><button>registration</button></a>
+            <a href="/gallery"><button>gallery</button></a>
+                <div class="center">
+                <img src="../images/SFStateLogo.png" alt="Smiley face" >
+                <h1>SF State login page</h1>
+                </div>
+    
+        </nav>
+       
+    <body>
+
+        <article>
+            <div class="submit">
+        
+            <h3>Please enter your user name and password</h1>
+                <form action="/users/login" encType ="application/x-www-form-urlencoded" method="POST" >
+                
+                
+                        <label for="login_input">Username:</label>
+                        <input type="text" id="login_input" placeholder="User Name" name="userName">
+                        <br>
+                        <br>
+                        <label for="password_input">Password:</label>
+                        <input type="password" id="password_input" name="password" placeholder="Password">
+                        <br>
+                        <br>
+                        <input type="submit" value="Submit">
+                   
+                </form>
+                <br>
+                <br>
+                <br>
+            </div>
+        </article>
+    </body>
+
+</html>

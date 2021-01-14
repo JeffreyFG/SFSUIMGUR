@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+        <head>
+            <title>Post image page</title>
+            <link rel="stylesheet" type="text/css" href="../stylesheets/style.css">
+            <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+        </head>
+            
+        <nav>
+            <a href="/login"><button id ="loginandout">login</button></a>
+            <a href="/postimage"><button>Post Image</button></a>
+            <a href="/registration"><button>registration</button></a>
+            <a href="/gallery"><button>gallery</button></a>
+                <div class="center">
+                <img src="../images/SFStateLogo.png" alt="Smiley face" >
+               <h1>SF State login page</h1>
+                </div>
+    
+        </nav>
+    <body>
+        <article>
+        <h1>Please enter the nesscary informaiton for your post: a title, a description, and an image </h1>
+        <div class="submit">
+            <form id="post-image" action="/posts/createPost" method="POST" enctype="multipart/form-data">
+                
+                <label for="post_title_input">Post Title:</label>
+                <input type="text" id="post_title_input" name="title">
+                <br>
+                <br>
+                <label for="description_input">Post description</label>
+                <input type="text" id="description_input" name="description">
+                <br>
+                <br>
+                <label for="image_input">Image for post</label>
+                <input type="file" id="image_input" name="uploadImage">
+                <br>
+                <br>
+                <a href="http://www.bing.com" >Acceptable Use Policy for uploading images</a>
+                <input type="checkbox" id="tos" name="TermsOfService">
+                <br>
+                <input type="submit" value="Submit">
+              </form>
+            </div>
+            </article>
+            
+            <script>
+                /*
+                const _form = document.getElementById("post-image");
+                _form.onsubmit = function(event)
+                {
+                    event.preventDefault();
+                    let _body = new FormData(_form);
+                    axios('posts/createPost',{
+                        data:_body,
+                        method="POST"
+                    }).then(function(data)
+                    {
+                        alert(data.data.message);
+                        location.replace(data.data.redirect);
+                    }).catch(err=> console.log(err));
+
+
+                     fetch('posts/createPost',{
+                        body:_body,
+                        method="POST"
+                    }).then(function(data){
+                        return data.json();
+                    }).then(function(dataAsObject)
+                    {
+                        alert(dataAsObject.message);
+                        location.replace(dataAsObject.redirect);
+                    }).catch(err=> console.log(err));
+
+*/
+
+
+
+
+
+            </script>
+    </body>
+</html>
